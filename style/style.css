@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #FFF8F3;
+}
+header nav{
+    margin: 0px 230px 0px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav h2{
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    text-align: left;
+}
+header nav h2 .mary{
+    color: #FD6E0A;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+}
+header nav ul .hire-btn a{
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    padding: 18px 36px;
+}
+header .container{
+    margin: 60px 0px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    background: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+header .container .container-left{
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+header .container .container-left h2{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    text-align: left;
+}
+header .container .container-left h1{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    text-align: left;
+}
+header .container .container-left p{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+header .container .container-left .btn-down-con{
+    display: flex;
+    gap: 30px;
+}
+header .container .container-left .btn-down-con #download-cv{
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    padding: 21px 17px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+}
+header .container .container-left .btn-down-con #contact{
+    color: rgb(253, 110, 10);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    padding: 20px 16px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background-color: #fd6f0a00;
+}
+header .container .container-right{
+    display: flex;
+    margin-right: 38px;
+}
