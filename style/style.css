@@ -277,7 +277,6 @@ footer{
 footer .footer-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: 100px;
 }
 footer .footer-container .footer-left{
@@ -292,6 +291,9 @@ footer .footer-container .footer-left .icons{
 }
 footer .footer-container .footer-right{
     width: 50%;
+}
+footer .footer-container .footer-right h2{
+    margin-bottom: 25px;
 }
 footer .footer-container .footer-right form{
     display: flex;
